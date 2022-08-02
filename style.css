@@ -1,0 +1,41 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Exo 2', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    width: 80%;
+    height: 400px;
+    margin: 70px auto 70px auto;
+    border: 2px solid darkorange;
+    text-align-last:left;
+    background-color:cadetblue;
+}
+.header-text{
+    margin: 50px;
+    color: aliceblue;
+    
+
+}
+.header-text h1{
+    border: 1px solid red;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: -150px;
+}
+.header-image{
+    
+}
+.watch{
+    margin-top: 5000px;
+    padding: 10px 15px;
+    background-color:darkblue;
+    border-radius: 5px;
+    color:aliceblue;
+    font-weight:900;
+}
