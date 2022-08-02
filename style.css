@@ -25,7 +25,7 @@ a {
 .header {
     display: flex;
     width: 80%;
-    height: 400px;
+    height: auto;
     margin: 70px auto 70px auto;
     text-align-last: left;
     background-color: green;
@@ -87,9 +87,34 @@ a {
     margin-right: 20px;
 }
 
-@media screen(max-width: 600px) {
-        .header-box {
-          display: flex;
+@media (max-width: 600px) {
+    .header{
+        display: block;
+        /* margin-top: 50px; */
+        padding-top: 5px;
+        text-align: center;
+    }
+        .header-image img {
+            width: 50vw;
+            height: 50vw;
         }
+        .header-text {
+           text-align: center;
+        }
+        .header-text h1 {
+            font-size: 22px;
+            font-weight: 900;
+            /* text-align:center; */
+            margin-left: 10vw;
       }
-    
+      .watch-box {
+        margin:auto;
+        margin-top: 50px;
+      }
+      .header-image img {
+        margin-top: auto; 
+        margin-right: auto;
+        margin-left: 10vw;
+        margin-bottom: -4px;
+    }
+}
