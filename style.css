@@ -1,41 +1,74 @@
-body{
-    margin: 0 auto;
-    padding: 0 auto;
-    font-family: 'Exo 2', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-a{
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0 30px;
+    font-family: 'Exo 2', sans-serif;
+    max-width: 1200px;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
     text-decoration: none;
 }
-.header{
+
+.header {
     display: flex;
     width: 80%;
     height: 400px;
     margin: 70px auto 70px auto;
-    border: 2px solid darkorange;
-    text-align-last:left;
-    background-color:cadetblue;
-}
-.header-text{
-    margin: 50px;
-    color: aliceblue;
-    
+    text-align-last: left;
+    background-color: cadetblue;
+    border-radius: 15px;
 
 }
-.header-text h1{
-    border: 1px solid red;
+
+.header-text {
+    margin: 50px;
+    color: aliceblue;
+
+
+}
+
+.header-text h1 {
     font-size: 40px;
     font-weight: 900;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: -150px;
+    padding-bottom: 5px;
 }
-.header-image{
-    
+
+.header-text p {
+    padding-top: 15px;
 }
-.watch{
-    margin-top: 5000px;
+
+.watch-box {
+    margin-top: 15px;
     padding: 10px 15px;
-    background-color:darkblue;
+    background-color: darkblue;
     border-radius: 5px;
-    color:aliceblue;
-    font-weight:900;
+    font-weight: 900;
+    cursor: pointer;
+    box-shadow: 0 5px 0 rgb(1, 1, 27);
+    width: 160px;
+    color: #fff;
+}
+
+.watch-box:active {
+    top: 5px;
+    box-shadow: 0 2px 0 black;
+}
+
+.header-image img {
+    margin-top: 60px;
 }
