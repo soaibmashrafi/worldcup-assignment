@@ -28,16 +28,13 @@ a {
     height: 400px;
     margin: 70px auto 70px auto;
     text-align-last: left;
-    background-color: cadetblue;
+    background-color: green;
     border-radius: 15px;
-
 }
 
 .header-text {
     margin: 50px;
-    color: aliceblue;
-
-
+    color: whitesmoke;
 }
 
 .header-text h1 {
@@ -46,6 +43,10 @@ a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: -150px;
     padding-bottom: 5px;
+    color: whitesmoke;
+}
+#yellow{
+    color: yellow;
 }
 
 .header-text p {
@@ -53,22 +54,42 @@ a {
 }
 
 .watch-box {
-    margin-top: 15px;
+    margin-top: 25px;
     padding: 10px 15px;
-    background-color: darkblue;
-    border-radius: 5px;
+    color: whitesmoke; 
+    background-color: rgb(23, 23, 201);
+    border-radius: 6px;
     font-weight: 900;
-    cursor: pointer;
+    cursor:pointer;
     box-shadow: 0 5px 0 rgb(1, 1, 27);
     width: 160px;
-    color: #fff;
+
+}
+.watch-box a{
+    color: white;
+    text-decoration: none;
 }
 
-.watch-box:active {
+.watch-box a:hover {
     top: 5px;
     box-shadow: 0 2px 0 black;
+    color:yellow;
+}
+
+.watch-box a:active {
+    top: 5px;
+    /* box-shadow: 0 2px 0 black; */
+    color: red;
 }
 
 .header-image img {
     margin-top: 60px;
+    margin-right: 20px;
 }
+
+@media screen(max-width: 600px) {
+        .header-box {
+          display: flex;
+        }
+      }
+    
