@@ -105,6 +105,7 @@ a {
     align-items: center;
     padding: 30px;
     margin-bottom: 20px;
+    margin-right: 20px;
 }
 
 #sidebar {
@@ -119,15 +120,52 @@ a {
     margin: 5px;
     text-align: center;
 }
+.match-grid{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 90%;
+    font-weight: bold;
 
-#heighlight {
-    background-color: yellow;
-    color: red;
-    font-size: 22px;
+}
+.flag-container{
+    border: 1px solid red;
+    border-radius: 5px;
+    width: auto;
+    height: 190px;
+    padding: 40px;
+    
+}
+.flag-container h5{
+    text-align: center;
+    margin: 15px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.flag-container h4{
+    text-align: center;
+    margin: 10px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flag-container p{
+    text-align: center;
+    margin: 10px;
+    font-weight: 100;
+}
+.flag-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    margin: 0 30px;
 }
 
 .blog-flex {
     display: flex;
+    width: 90%;
+    margin: auto;
 }
 
 .blog-container {
@@ -144,7 +182,7 @@ a {
 }
 
 .blog {
-    border: 1px solid red;
+    border: 1px solid rgb(196, 194, 194);
     /* width: 312px; */
     box-shadow: 0 10px 35px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
