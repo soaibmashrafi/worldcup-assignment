@@ -12,7 +12,7 @@ html {
 
 body {
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 auto;
     font-family: 'Exo 2', sans-serif;
     max-width: 1800px;
     font-family: 'Poppins', sans-serif;
@@ -26,7 +26,7 @@ a {
     display: flex;
     width: 90%;
     height: auto;
-    margin: 70px auto 70px auto;
+    margin: 40px auto 70px auto;
     text-align-last: left;
     background-color: green;
     border-radius: 15px;
@@ -84,9 +84,8 @@ a {
 }
 
 .watch-box a:active {
-    top: 5px;
-    box-shadow: 0 2px 0 black;
     color: red;
+    text-decoration: none;
 }
 
 .header-image img {
@@ -99,12 +98,12 @@ a {
 .section-2-left {
     background-color: rgb(58, 56, 56);
     width: 250px;
-    height: 205px;
+    height: 235px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15px;
+    padding: 30px;
     margin-bottom: 20px;
 }
 
@@ -129,6 +128,7 @@ a {
     margin: 0 auto;
     padding: 0 auto;
     width: 90%;
+    font-weight: bold;
     /* margin-left: 500px; */
 
 }
@@ -138,32 +138,77 @@ a {
     /* width: 312px; */
     box-shadow: 0 10px 35px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-  
+    padding: 10px;
+
 }
 
 .blog img {
-    border: 3px solid blue;
     width: 100%;
     height: 200px;
+    border-radius: 2px;
 }
-.footer{
+
+.blog h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    color: red;
+    margin: 8px 3px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    width: 45%;
+    padding: 2px 20px;
+    font-size: 14px;
+}
+
+.blog h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin: 10px 5px;
+}
+
+.blog small {
+    margin-right: 5px;
+    margin-left: 6px;
+    font-weight: lighter;
+}
+
+.blog small i {
+    margin-right: 5px;
+    font-weight: lighter;
+
+}
+
+
+.footer {
     color: aliceblue;
     background-color: black;
     width: 100%;
     height: 300px;
-    text-align: center;    
+    text-align: center;
     margin-top: 100px;
     padding: 100px;
 
 }
-.footer-hr{
+
+.footer h1 {
+    margin-bottom: 30px;
+}
+
+.footer-hr {
     margin: 25px;
     height: auto;
 }
 
-.footer a{
-    color:rgb(70, 204, 70);
+.footer-hr a {
+    color: rgb(70, 204, 70);
+}
+
+.footer a {
     padding: 10px;
+}
+
+.social-icon a {
+    color: rgb(160, 160, 160);
 }
 
 
