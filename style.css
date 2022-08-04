@@ -24,7 +24,7 @@ a {
 
 .header {
     display: flex;
-    width: 100%;
+    width: 90%;
     height: auto;
     margin: 70px auto 70px auto;
     text-align-last: left;
@@ -128,6 +128,7 @@ a {
     gap: 30px;
     margin: 0 auto;
     padding: 0 auto;
+    width: 90%;
     /* margin-left: 500px; */
 
 }
@@ -145,6 +146,26 @@ a {
     width: 100%;
     height: 200px;
 }
+.footer{
+    color: aliceblue;
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    text-align: center;    
+    margin-top: 100px;
+    padding: 100px;
+
+}
+.footer-hr{
+    margin: 25px;
+    height: auto;
+}
+
+.footer a{
+    color:rgb(70, 204, 70);
+    padding: 10px;
+}
+
 
 
 @media (max-width: 600px) {
