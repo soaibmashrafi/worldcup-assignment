@@ -291,10 +291,10 @@ a {
   .footer{
     margin-bottom: -100px;
     height: auto;
+
   }
   .footer-link a{
     margin: 10px 15%;
-    width: 100%;
   }
 }
 
@@ -358,5 +358,5 @@ a {
       }
       .footer-link a{
         margin: 10px;
-      }
+          }
 }
