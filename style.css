@@ -202,12 +202,12 @@ a {
     margin-bottom: 30px;
 }
 
-.footer-hr {
+.footer-link {
     margin: 25px;
     height: auto;
 }
 
-.footer-hr a {
+.footer-link a {
     color: rgb(70, 204, 70);
 }
 
@@ -253,7 +253,7 @@ a {
 
     .watch-box {
         margin: auto;
-        margin-top: 50px;
+        margin-top: 80px;
         align-items: center;
         max-width: 100%;
         min-width: 150px;
@@ -264,6 +264,36 @@ a {
         margin-right: auto;
         margin-left: 15vw;
         margin-bottom: -6px;
-
     }
+    .blog-grid{
+        grid-template-columns: 1fr;
+    }
+    .blog{
+        width: 100%;
+    }
+    .blog-flex{
+        flex-direction: column;
+    }
+    .section-2-left{
+        margin:auto;
+        margin-bottom: 30px;
+        margin-top: -30px;
+        background-color: white;
+  }
+  .blog h4{
+    width: 40%;
+  }
+  #sidebar{
+    background-color: white;
+    border: 1px solid rgb(218, 217, 217);
+    border-radius: 5px;
+  }
+  .footer{
+    margin-bottom: -100px;
+    height: auto;
+  }
+  .footer-link a{
+    margin: 10px 15%;
+    width: 100%;
+  }
 }
